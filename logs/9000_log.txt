@@ -1,0 +1,41 @@
+[2023-05-12 14:54:13 | 9000] Starting server...
+[2023-05-12 14:54:13 | 9000] Message received from ('10.48.65.59', 64364)
+[2023-05-12 14:54:13 | 9000] Received transaction:
+{
+  "sender": "d735d34b3f35c38da31b3e05e4acd1da3cd8a553caa77acc0823e2dc131f4c9e",
+  "message": "hellofromdaniel",
+  "signature": "ab913c44ac3e998915f7460d29d1501ba21c3f743be311bb7e5084f1a57b72b3d4f466eb4f3f0d1e6c07943759058c453126309c9e9e6ea89dec152393413006",
+  "nonce": 0
+}
+[2023-05-12 14:54:13 | 9000] Starting consensus protocol
+[2023-05-12 14:54:15 | 9000] Created proposed block for consensus protocol
+{
+  "index": 1,
+  "transactions": [
+    {
+      "sender": "d735d34b3f35c38da31b3e05e4acd1da3cd8a553caa77acc0823e2dc131f4c9e",
+      "message": "hellofromdaniel",
+      "signature": "ab913c44ac3e998915f7460d29d1501ba21c3f743be311bb7e5084f1a57b72b3d4f466eb4f3f0d1e6c07943759058c453126309c9e9e6ea89dec152393413006",
+      "nonce": 0
+    }
+  ],
+  "previous_hash": "0aa3d39e1164f36784c928d45cf25809bbfee5a804a3a6536bbf45fa8437e271",
+  "current_hash": "9896a4b17b5ec8a7707dafa63bf6b577de4d541251cebef31b935431205f5094"
+}
+[2023-05-12 14:54:22 | 9000] Unable to reach node running at ('10.48.65.35', 9000). Node will be removed from list of connections.
+[2023-05-12 14:54:22 | 9000] Decided on block:
+{
+  "index": 1,
+  "transactions": [
+    {
+      "sender": "d735d34b3f35c38da31b3e05e4acd1da3cd8a553caa77acc0823e2dc131f4c9e",
+      "message": "hellofromdaniel",
+      "signature": "ab913c44ac3e998915f7460d29d1501ba21c3f743be311bb7e5084f1a57b72b3d4f466eb4f3f0d1e6c07943759058c453126309c9e9e6ea89dec152393413006",
+      "nonce": 0
+    }
+  ],
+  "previous_hash": "0aa3d39e1164f36784c928d45cf25809bbfee5a804a3a6536bbf45fa8437e271",
+  "current_hash": "9896a4b17b5ec8a7707dafa63bf6b577de4d541251cebef31b935431205f5094"
+}
+[2023-05-12 14:54:22 | 9000] Waiting for other nodes...
+[2023-05-12 14:54:22 | 9000] Consensus reached between all nodes

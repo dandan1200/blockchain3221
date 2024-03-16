@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cffi = "==1.15.1"
+cryptography = "==40.0.1"
+pycparser = "==2.21"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+example = "python usage_example.py"
